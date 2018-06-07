@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.header-logo {
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-logo-img {
+	height: 70px;
+	float: left;
+}
+.nav-list {
+	height: 70px;
+	padding: 25px 0;
+	margin: 0 auto;
+	float: right;
+}
+.nav-list-item {
+	font-size: 16px;
+	color: #FAFAFA;
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 200px;
+}
+.main-visual-name {
+	font-size: 64px;
+	color: #FAFAFA;
+}
+.main-visual-text {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #FAFAFA;
+}
+.portfolio {
+	width: 100%;
+	height: 850px;
+	background-color: #ECEFF1;
+}
+.portfolio-box {
+	width: 920px;
+	height: 850px;
+	margin: 0 auto;
+}
+.main-description-box {
+	width: 920px;
+	height: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title {
+	font-size: 32px;
+	color: #000000;
+	margin-top: 90px;
+	margin-bottom: 8px;
+}
+.line {
+	border-bottom: solid 3px #EC715F;
+	width: 70px;
+	margin: 0 auto;
+
+}
+.feature {
+	width: 100%;
+	height: 600px;
+	background-color: blue;
+}
+.profile {
+	width: 100%;
+	height: 600px;
+	background-color: hotpink;
+}
+.contact {
+	width: 100%;
+	height: 600px;
+	background-color: pink;
+}
+.footer {
+	width: 100%;
+	height: 60px;
+	background-color: gold;
+}
