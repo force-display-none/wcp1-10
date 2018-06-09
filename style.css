@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .header {
 	width: 100%;
 	height: 70px;
@@ -48,7 +53,7 @@
 }
 .portfolio {
 	width: 100%;
-	height: 881px;
+	/*height: 881px;*/
 	background-color: #ECEFF1;
 }
 .portfolio-box {
@@ -130,12 +135,13 @@
 }
 .feature-item {
 	width: 320px;
-	text-align: center;
+	/*text-align: center;*/
 	float: left;
 	margin-bottom: 90px;
 }
 .fa-large {
 	font-size: 60px;
+	margin: 0 auto;
 }
 .icon-title {
 	font-size: 20px;
@@ -145,9 +151,17 @@
 .icon-description {
 	font-size: 16px;
 	color: #000000;
+	display: inline;
+	text-align: left;
 }
+.center {
+	text-align: center;
+}
+/*span {
+	text-align: left;
+}*/
 .feature-item:nth-child(2) {
-	margin: 0 10px;
+	margin: 0 10px 90px;
 }
 .profile {
 	background-color: #ECEFF1;
