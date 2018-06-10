@@ -33,8 +33,12 @@
 	display: inline-block;
 	margin: 25px 30px;
 }
-.main-visual {
+.main-visual-box {
 	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+}
+.main-visual {
 	height: 650px;
 	background-image: url(img/mv.png);
 	background-size: cover;
@@ -122,14 +126,13 @@
 }
 .feature {
 	width: 100%;
-	height: 673px;
 }
 .feature-box {
 	width: 980px;
 	margin: 0 auto;
 }
 .feature-item-box {
-	width: 980px
+	width: 980px;
 	margin: 0 auto;
 }
 .feature-item {
@@ -255,10 +258,12 @@
 }
 @media screen and (max-width:768px) {
 	.header {
-	width: 90%;
+	width: 100%;
 	height: 50px;
+
 }
     .header-logo {
+    width: 100%;
 	height: 50px;
 }
     .header-logo-img {
@@ -271,8 +276,11 @@
     .nav-list-item {
     display: none;
 }
+    .main-visual-box {
+    	width: 100%;
+}
      .main-visual {
-	width: 90%;
+	width: 100%;
 	height: 650px;
 	background-image: url(img/code.png);
 }
@@ -283,13 +291,18 @@
 	font-size: 18px;
 }
      .portfolio {
-	width: 90%;
+	width: 100%;
 }
      .portfolio-box {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
+     .portfolio-img-box {
+	width: 100%;
+	padding-bottom: 90px;
+}
      .portfolio-img {
+    width: 300px;
 	float: none;
 }
      .portfolio-img:nth-child(odd) {
@@ -301,30 +314,94 @@
      .portfolio-img:nth-child(4) {
 	margin: 10px auto;
 }
+     .portfolio-img:nth-child(6) {
+    margin: 0 auto;
+     }
      .feature {
-	width: 90%;
+	width: 100%;
+}
+     .feature-box {
+	width: 100%;
+	margin: 0 auto;
+}
+    .feature-item-box {
+	width: 100%;
+	margin: 0 auto;
 }
     .feature-item {
 	float: none;
+	margin: 0 auto;
+}
+    .feature-item:nth-child(2) {
+	float: none;
+	margin: 10px auto;
+}
+    .feature-item:nth-child(3) {
+	float: none;
+	margin-bottom: 90px;
 }
      .profile {
-	width: 90%;
+	width: 100%;
+}
+     .profile-box {
+	width: 100%;
+	margin: 0 auto;
 }
      .my-icon-box {
 	float: none;
+	width: 100%;
 }
      .my-profile-box {
+    text-align: center;
 	float: none;
+	width: 100%;
+}
+    .c-s {
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 90px;
+}
+    .c-s:nth-child(2) {
+	margin-bottom: 0;
+	padding-bottom: 10px;
 }
      .contact {
-	width: 90%;
+	width: 100%;
+}
+    .contact-box {
+	width: 100%;
+	margin: 0 auto;
+}
+    .contact-tool-box {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
 }
      .m-t-box {
+    width: 100%;
 	float: none;
+}
+     .test {
+	position: relative;
+	left: 0;
 }
      .social-box {
 	float: none;
+	width: 100%;
+}
+    .sns {
+	position: relative;
+	left: 0;
+}
+     .social-icon-box {
+	width: 100%;
+}
+     .social-icon i {
+	font-size: 50px;
+	position: relative;
+	left: 0;
 }
      .footer {
-	width: 90%;
+    width: 100%;
+}
 }
