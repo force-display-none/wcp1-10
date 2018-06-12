@@ -196,7 +196,7 @@
 	margin-top: 5px;
 	margin-bottom: 8px;
 }
-.contact {
+ .contact {
 	width: 100%;
 }
 .contact-box {
@@ -210,18 +210,20 @@
 .m-t-box {
 	width: 400px;
 	float: left;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 .m-t {
 	font-size: 20px;
+	margin-left: 160px;
+	margin-bottom: 5px;
 }
 .m-t-address {
 	font-size: 16px;
+	margin-left: 160px;
 	margin-bottom: 20px;
 }
-.test {
-	position: relative;
-	left: 40%;
+.m-t-address:nth-child(last) {
+	margin-bottom: 0px;
 }
 .social-box {
 	width: 400px;
@@ -350,20 +352,21 @@
      .my-icon-box {
 	float: none;
 	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
      .my-profile-box {
     text-align: center;
 	float: none;
+	margin-bottom: 0px;
 	width: 100%;
 }
     .c-s {
-	font-size: 16px;
-	margin-top: 5px;
-	margin-bottom: 90px;
+	margin-bottom: 0px;
+	padding-bottom: 90px
 }
     .c-s:nth-child(2) {
-	margin-bottom: 0;
-	padding-bottom: 10px;
+    padding-bottom: 20px;
 }
      .contact {
 	width: 100%;
@@ -374,7 +377,6 @@
 }
     .contact-tool-box {
 	width: 100%;
-	text-align: center;
 	margin: 0 auto;
 }
      .m-t-box {
